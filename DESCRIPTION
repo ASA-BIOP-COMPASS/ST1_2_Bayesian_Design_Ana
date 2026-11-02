@@ -1,0 +1,18 @@
+Package: BayesianDesignAna
+Title: Bayesian Multi-Arm Binary Trial Design and Analysis with Control Borrowing
+Version: 0.6.0
+Authors@R: person('Jinhao', 'Zou', role = c('aut', 'cre'), email = 'jinhaozoumda@gmail.com')
+Description: Simulate Bayesian multi-arm binary endpoint trials with historical
+    control borrowing and multiplicity decisions, plan sample sizes, and fit
+    Bayesian logistic models with stratification covariates. Provides design
+    prior effective sample size summaries and optional meta-analytic predictive
+    priors through RBesT. Requires independent validation before use in clinical trials.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, utils
+Suggests: testthat (>= 3.0.0), RBesT, knitr, rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+URL: https://github.com/JinhaoZou/ST1_2_Bayesian_Design_Ana
+BugReports: https://github.com/JinhaoZou/ST1_2_Bayesian_Design_Ana/issues
