@@ -160,9 +160,9 @@ plot(ss)              # Replots saved results; no extra simulation
 | `search = "grid"` | Runs `n_sim` trials for **every valid** candidate total. | A small candidate range or final confirmation. |
 | `search = "two_stage"` | Screens a subset first, then refines around the preliminary target-power crossing. | A broad range where full simulation is costly. |
 | `initial_step = 5` | Stage 1 checks every **fifth candidate** in the *full valid candidate grid*. | Faster first-stage screening. |
-| `n_sim_initial = 500` | Simulated trials at each Stage 1 candidate. | Small number for screening. |
+| `n_sim_initial = 100` | Simulated trials at each Stage 1 candidate. | Small number for screening. |
 | `refine_span = 5` | Number of **valid candidate positions** on either side of the preliminary crossing to include in Stage 2 (the code also incorporates an earlier coarse point). | Increase when the power curve is noisy. |
-| `n_sim = 10000` | Simulated trials per **Stage 2** candidate (`grid`: per candidate). | Higher precision near crossing. |
+| `n_sim = 1000` | Simulated trials per **Stage 2** candidate (`grid`: per candidate). | Higher precision near crossing. |
 | `target_power = .80` | Estimated overall power needed to select a candidate. | Change to your design target. |
 | `historical_ess` | Optional historical ESS **reference for a warning only**. It does **not** change borrowing or determine sample size. | Use after an independent MAP ESS analysis. |
 | `table_max_cols` | Maximum sample-size columns shown in the plot's allocation/power table. | `12` |
