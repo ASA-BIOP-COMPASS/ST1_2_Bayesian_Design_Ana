@@ -14,5 +14,5 @@ Imports: stats, utils
 Suggests: testthat (>= 3.0.0), RBesT, knitr, rmarkdown
 Config/testthat/edition: 3
 VignetteBuilder: knitr
-URL: https://github.com/JinhaoZou/ST1_2_Bayesian_Design_Ana
-BugReports: https://github.com/JinhaoZou/ST1_2_Bayesian_Design_Ana/issues
+URL: https://github.com/ASA-BIOP-COMPASS/ST1_2_Bayesian_Design_Ana
+BugReports: https://github.com/ASA-BIOP-COMPASS/ST1_2_Bayesian_Design_Ana/issues
