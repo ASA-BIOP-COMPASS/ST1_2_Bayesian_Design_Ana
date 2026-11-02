@@ -26,7 +26,7 @@ Install from the GitHub repository (requires access if it is private):
 
 ```r
 install.packages("remotes")
-remotes::install_github("JinhaoZou/ST1_2_Bayesian_Design_Ana", upgrade = "never")
+remotes::install_github("ASA-BIOP-COMPASS/ST1_2_Bayesian_Design_Ana", upgrade = "never")
 library(BayesianDesignAna)
 ```
 
@@ -375,4 +375,4 @@ Weber S, Li Y, Seaman JW, Kakizume T, Schmidli H (2021). *Applying Meta-Analytic
 
 RBesT documentation: https://opensource.nibr.com/RBesT/
 
-License: MIT (see `LICENSE.md`). Report bugs or feature requests at https://github.com/JinhaoZou/ST1_2_Bayesian_Design_Ana/issues.
+License: MIT (see `LICENSE.md`). Report bugs or feature requests at https://github.com/ASA-BIOP-COMPASS/ST1_2_Bayesian_Design_Ana/issues.
